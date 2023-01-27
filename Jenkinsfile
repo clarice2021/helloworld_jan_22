@@ -19,7 +19,7 @@ pipeline{
             }
         }
         stage('Docker') {
-            setps{
+            steps{
                 echo 'Image step'
             }
         }
