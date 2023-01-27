@@ -18,10 +18,6 @@ pipeline{
                 sleep 10
             }
         }
-        stage('Docker') {
-            setps{
-                echo 'Image step'
-            }
-        }
+        
     }
 }
